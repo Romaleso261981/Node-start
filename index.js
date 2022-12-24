@@ -14,6 +14,7 @@ program
 program.parse(process.argv);
 
 const argv = program.opts();
+console.log(argv);
 
 async function invokeAction({ action, id, name, email, phone }) {
   switch (action) {
