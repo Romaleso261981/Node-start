@@ -1,16 +1,11 @@
 {
-  "dependencies": {
-    "nodemon": "^2.0.20"
-  },
-  "name": "node-start",
+    "name": "node-start",
   "description": "",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "start": "node index.js",
-    "dev": "npx nodemon index.js",
-    "test": "echo \"no test specified\" && exit 1"
+    "start:dev": "npx nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +15,14 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Romaleso261981/Node-start/issues"
+  },
+  "dependencies": {
+    "body": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.1",
+    "nodemon": "^2.0.20",
+    "parser": "^0.1.4"
   },
   "homepage": "https://github.com/Romaleso261981/Node-start#readme"
 }
